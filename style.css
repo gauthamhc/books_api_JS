@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(230, 187, 102);
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#books-section {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book {
+}
+.btn {
+  padding: 0.5rem;
+  background-color: rgb(67, 67, 192);
+  border-radius: 10px;
+  width: 200px;
+  border: none;
+  color: aliceblue;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.book {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.book-title {
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 20%;
+  background-position: center;
+  margin: 0.5rem 0;
+}
