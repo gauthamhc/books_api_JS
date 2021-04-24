@@ -20,13 +20,11 @@
   justify-content: center;
 }
 
-.book {
-}
 .btn {
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: rgb(67, 67, 192);
   border-radius: 10px;
-  width: 200px;
+  /* width: 200px; */
   border: none;
   color: aliceblue;
   text-transform: capitalize;
